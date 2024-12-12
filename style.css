@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EAF2EF; /* Fondo general de la página */
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff; /* Fondo blanco para el contraste dentro del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #3B429F; /* Encabezado principal con el color azul oscuro */
+}
+
+p {
+    color: #3B429F; /* Texto de los párrafos en color azul oscuro */
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    border: 2px solid #3B429F; /* Borde azul oscuro */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #721121; /* Color de fondo rojo oscuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3B429F; /* Cambio de color al pasar el cursor por encima */
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #721121; /* Mensajes de retroalimentación en color rojo oscuro */
+}
+
+#attempts, 
+#timer {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #3B429F; /* Contadores con color azul oscuro */
+}
